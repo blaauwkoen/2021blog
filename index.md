@@ -2,8 +2,12 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
 
+
+<header>
+	<div class="headerleft"><img src='logo.svg'></div>
+	<div class="headerright"><p>TEXTTTTTTTTTTTTTTTTT</p></div>
+</header>
 <div class="posts">
 
 	<ul>
