@@ -10,8 +10,12 @@ body {
 	padding: 40px;
 }
 header {
-	width: 70%;
+	    width: calc(70% + 80px);
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	margin-top: 60px;
+	position: fixed;
+    left: calc(15% - 34px);
+    right: calc(15% - 34px);
 }
