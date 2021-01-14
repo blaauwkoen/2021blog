@@ -9,9 +9,9 @@ title: Home
 	<ul>
 
   {% for post in site.posts %}
-    <li>
-      {{ post.title }}
-    </li>
+    <h1>
+       {{ post.date | date: "%F %j"}}
+    </h1>
   {% endfor %}
 </ul>
 
